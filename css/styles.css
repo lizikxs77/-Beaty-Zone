@@ -1,0 +1,44 @@
+.span {
+  color: #2b7fff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.head-link {
+  color: #011c44;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #2b7fff;
+  border: 2px solid #2b7fff;
+  border-radius: 32px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #011c44;
+  background-color: transparent;
+}
+
+.head-link:hover {
+  color: #2b7fff;
+}
+
+.call {
+  color: #4a4a4a;
+}
+
+.text {
+  color: #011c44;
+}
+
+.priority {
+  color: #000000;
+}
+
+.procedures {
+  color: #ffffff;
+}
