@@ -5,6 +5,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Beauty zone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Roboto:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -13,13 +19,21 @@
           <img src="./Img/logo.svg" alt="Логотип beauty zone "
         /></a>
         <ul>
-          <li><a class="head-link" href="#Pro-nas">Про нас</a></li>
-          <li><a class="head-link" href="#WhyUs">Чому ми</a></li>
-          <li><a class="head-link" href="#procedures">Наші процедури</a></li>
-          <li><a class="head-link" href="#Contacts">Контакти</a></li>
+          <li><a class="head-link-header" href="#Pro-nas">Про нас</a></li>
+          <li><a class="head-link-header" href="#WhyUs">Чому ми</a></li>
+          <li>
+            <a class="head-link-header" href="#procedures">Наші процедури</a>
+          </li>
+          <li><a class="head-link-header" href="#Contacts">Контакти</a></li>
         </ul>
       </nav>
-      <!--Logo-->
+      <p class="priority">Косметологічна клініка</p>
+      <h1>
+        <span class="span"
+          >Beauty<br />
+          zone</span
+        >
+      </h1>
       <button type="button" class="button">Замовити дзвінок</button>
       <p class="call">
         Запишись та отримай безкоштовну консультацію нашого косметолога
@@ -28,23 +42,30 @@
     <main>
       <section id="Pro-nas">
         <section class="text">
-          <h2>Перевтілюйтесь в <span class="span">Beauty zone!</span></h2>
+          <h2>
+            Перевтілюйтесь <br />
+            в <span class="span">Beauty zone!</span>
+          </h2>
         </section>
         <p class="text">
           Наша косметологічна клініка пропонує вам професійні послуги з догляду
           за шкірою обличчя та тіла.
         </p>
         <p class="text">
-          B <span>beauty zone</span> ми гарантуємо найвищі стандарти якості та
-          приємний сервіс. Наші косметологічні процедури та препарати допоможуть
-          вам підтримувати свою красу та молодість. З нами краса назавжди!
+          B <span class="span-text">beauty zone</span> ми гарантуємо найвищі
+          стандарти якості та приємний сервіс. Наші косметологічні процедури та
+          препарати допоможуть вам підтримувати свою красу та молодість. З нами
+          краса назавжди!
         </p>
         <img src="./Img/DO.jpg" alt="" />
         <img src="./Img/после.jpg" alt="" />
       </section>
 
       <section id="WhyUs">
-        <h2 class="text">Чому люди <span class="span">обирають нас</span></h2>
+        <h2 class="text">
+          Чому люди <br />
+          <span class="span-special">обирають нас</span>
+        </h2>
         <article>
           <p class="priority">
             Всі наші косметологи мають вищу медичну освіту та стаж роботи від 5
@@ -65,7 +86,7 @@
         </article>
       </section>
       <section id="procedures">
-        <h2 class="text">Наші <span class="span">процедури</span></h2>
+        <h2 class="text">Наші <span class="span-special">процедури</span></h2>
         <ul>
           <li>
             <img src="./Img/маски.jpg" alt="маски" />
@@ -79,7 +100,7 @@
         </ul>
       </section>
       <section id="Contacts">
-        <h2 class="text">Як нас <span class="span">знайти</span></h2>
+        <h2 class="text">Як нас <span class="span-special">знайти</span></h2>
         <iframe
           id="inlineFrameExample"
           title="Inline Frame Example"
@@ -95,6 +116,17 @@
         >
           >
         </iframe>
+        <h3 class="text-naiti">
+          Запишіться <span class="span-naiti">безкоштовно</span> <br />
+          та отримуйте подарунок
+        </h3>
+        <p>Ваше ім'я та прізвище</p>
+        <p>Ваш номер телефону</p>
+        <p>Ваша електронна пошта</p>
+        <button type="button" class="button">Записатись безкоштовно</button>
+        <p class="call">
+          Натискаючи на кнопку я погоджуюсь з політикою конфіденційності
+        </p>
       </section>
     </main>
     <footer>
@@ -136,8 +168,10 @@
             <a href="#"><!-- Instagram icon --></a>
           </li>
         </ul>
-        <a href="#" target="_blank" class="head-link">Політика конфедіційності</a>
-        <p>&copy; 2022 Дані захищені</p>
+        <a href="#" target="_blank" class="head-link"
+          >Політика конфедіційності</a
+        >
+        <p class="polyty">&copy; 2022 Дані захищені</p>
       </address>
     </footer>
   </body>

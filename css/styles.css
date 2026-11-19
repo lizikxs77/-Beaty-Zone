@@ -1,5 +1,60 @@
+:root {
+  --color-primary-light: #ffffff;
+  --color-primary-dark: #011c44;
+  --color-brand: #2b7fff;
+  --color-secondary-dark: #4a4a4a;
+  --color-black: #000000;
+  --color-secondary-dark: #747272;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  line-height: 38px;
+  font-weight: 400px;
+}
+
+.head-link-header {
+  color: var(--color-brand);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.head-link-header:hover {
+  color: var(--color-primary-dark);
+  font-size: 18px;
+  font-weight: 700;
+}
+
 .span {
-  color: #2b7fff;
+  color: var(--color-brand);
+  font-family: "Play", sans-serif;
+  text-transform: capitalize;
+  line-height: normal;
+}
+
+.span-special {
+  color: var(--color-brand);
+  font-family: "Play", sans-serif;
+  font-size: 64px;
+  line-height: normal;
+}
+
+.span-text {
+  text-transform: capitalize;
+  font-weight: 600;
+  line-height: normal;
+}
+
+h1 {
+  font-size: 140px;
+  font-family: "Play", sans-serif;
+  line-height: 114px;
+}
+
+h2 {
+  font-family: "Play", sans-serif;
+  font-size: 64px;
 }
 
 ul {
@@ -7,38 +62,82 @@ ul {
 }
 
 .head-link {
-  color: #011c44;
-}
-
-.button {
-  color: #ffffff;
-  background-color: #2b7fff;
-  border: 2px solid #2b7fff;
-  border-radius: 32px;
-  cursor: pointer;
-}
-
-.button:hover {
-  color: #011c44;
-  background-color: transparent;
-}
-
-.head-link:hover {
-  color: #2b7fff;
+  color: var(--color-primary-dark);
+  font-size: 18px;
 }
 
 .call {
-  color: #4a4a4a;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.button {
+  color: var(--color-primary-light);
+  background-color: var(--color-brand);
+  border: 2px solid var(--color-brand);
+  border-radius: 32px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  padding: 16px 32px;
+  font-weight: 600;
+}
+
+.button:hover {
+  color: var(--color-primary-dark);
+  background-color: transparent;
+}
+
+.head-link {
+  color: var(--color-brand);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.head-link:hover {
+  color: var(--color-primary-dark);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.call {
+  color: var(--color-secondary-dark);
 }
 
 .text {
-  color: #011c44;
+  color: var(--color-primary-dark);
+  line-height: normal;
 }
 
 .priority {
-  color: #000000;
+  font-size: 18px;
+  color: var(--color-black);
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .procedures {
-  color: #ffffff;
+  color: var(--color-primary-light);
 }
+
+.span-naiti {
+  color: var(--color-brand);
+  font-family: "Play", sans-serif;
+  font-size: 22px;
+  line-height: normal;
+}
+
+.text-naiti {
+  color: var(--color-primary-light);
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  line-height: normal;
+}
+
+.polyty {
+  color: var(--color-secondary-dark);
+  font-size: 13px;
+  font-weight: 300px;
+}
+
+
