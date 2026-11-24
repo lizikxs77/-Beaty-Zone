@@ -1,0 +1,255 @@
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+
+  font-weight: 400;
+  src: url("../fonts/poppins-v24-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+
+  font-weight: 700;
+  src: url("../fonts/poppins-v24-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+
+  font-weight: 400;
+  src: url("../fonts/roboto-v51-cyrillic_latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+
+  font-weight: 600;
+  src: url("../fonts/roboto-v51-cyrillic_latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+
+  font-weight: 700;
+  src: url("../fonts/roboto-v51-cyrillic_latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+:root {
+  --color-primary-light: #ffffff;
+  --color-primary-dark: #011c44;
+  --color-brand: #2b7fff;
+  --color-secondary-dark: #4a4a4a;
+  --color-black: #000000;
+  --color-secondary-dark: #747272;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  line-height: 38px;
+  font-weight: 400;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1288px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.head-link-header {
+  color: var(--color-brand);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.head-link-header:hover {
+  color: var(--color-primary-dark);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.footer-link {
+  color: var(--color-brand);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.footer-link:hover {
+  color: var(--color-primary-dark);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.footer-item {
+  margin-bottom: 16px;
+}
+
+.section {
+  padding: 48px 0;
+}
+
+.span {
+  color: var(--color-brand);
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  line-height: normal;
+}
+
+.hero-section {
+  padding: 16.52px 0px 194.48px 0px;
+}
+
+.span-special {
+  color: var(--color-brand);
+  font-family: "Poppins", sans-serif;
+  font-size: 64px;
+  line-height: normal;
+}
+
+.span-text {
+  text-transform: capitalize;
+  font-weight: 600;
+  line-height: normal;
+}
+
+h1 {
+  font-size: 140px;
+  font-family: "Poppins", sans-serif;
+  line-height: 114px;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 64px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.call {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.button {
+  color: var(--color-primary-light);
+  background-color: var(--color-brand);
+  border: 2px solid var(--color-brand);
+  border-radius: 32px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  padding: 16px 32px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.button:hover {
+  color: var(--color-primary-dark);
+  background-color: transparent;
+}
+
+.head-link {
+  color: var(--color-brand);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.head-link:hover {
+  color: var(--color-primary-dark);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.call {
+  color: var(--color-secondary-dark);
+  margin-bottom: 24px;
+}
+
+.text {
+  color: var(--color-primary-dark);
+  line-height: normal;
+}
+
+.Pro-nas-section {
+  margin-bottom: 40px;
+}
+
+.WhyUs {
+  padding: 128px 0 48px 0;
+  margin-bottom: 48px;
+}
+
+.procedures {
+  margin-bottom: 48px;
+}
+
+.znaiti {
+  margin-bottom: 48px;
+}
+
+.priority {
+  font-size: 18px;
+  color: var(--color-black);
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.procedures {
+  color: var(--color-primary-light);
+}
+
+.span-naiti {
+  color: var(--color-brand);
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  line-height: normal;
+}
+
+.naiti {
+  color: var(--color-primary-light);
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  line-height: normal;
+  margin-bottom: 32px;
+}
+
+.form-input {
+  margin-bottom: 52px;
+}
+
+.polyty {
+  color: var(--color-secondary-dark);
+  font-size: 13px;
+  font-weight: 300px;
+}
+
+.contact-map {
+  .contact-map {
+    width: 100%;
+    max-width: 605px;
+    height: 481px;
+    border: none;
+    border-radius: 32px;
+  }
+}
